@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "warehouse:main",
+    "type": "warehouse",
+    "code": "MAIN",
+    "name": "Kho chính",
+    "active": true
+  },
+  {
+    "_id": "warehouse:counter",
+    "type": "warehouse",
+    "code": "COUNTER",
+    "name": "Kho quầy",
+    "active": true
+  }
+]
