@@ -1,0 +1,14 @@
+offline-pos/
+├── README.md
+├── project-docs-structure.txt         ← this file
+└── project-docs/
+    ├── 01_business_requirements.md    ← Yêu cầu nghiệp vụ
+    ├── 02_technical_stack.md          ← Kiến trúc & công nghệ đã chốt
+    ├── 03_data_rules.md               ← Quy tắc dữ liệu (UoM, batch, multi-warehouse)
+    ├── 04_user_flows.md               ← Luồng người dùng (sale, purchase, transfer, sync)
+    ├── 05_ui_mockups.md               ← UI mockups (placeholder — cập nhật sau)
+    ├── 06_acceptance_tests.md         ← Tiêu chí nghiệm thu & test scenarios
+    └── seed/
+        ├── warehouses.json            ← Kho mẫu: Kho chính + Kho quầy
+        ├── products.json              ← Sản phẩm mẫu với UoM (pack/bundle/carton)
+        └── batches.json               ← Lô/batch mẫu với lotCode + expDate

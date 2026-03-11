@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "product:mi-haohao",
+    "type": "product",
+    "sku": "MI-001",
+    "name": "Mì gói Hảo Hảo",
+    "active": true,
+    "baseUom": "pack",
+    "uoms": [
+      { "uom": "pack",   "factorToBase": 1  },
+      { "uom": "bundle", "factorToBase": 10 },
+      { "uom": "carton", "factorToBase": 30 }
+    ],
+    "barcodes": [
+      { "barcode": "8934678000001", "uom": "pack"   },
+      { "barcode": "8934678000002", "uom": "carton" }
+    ],
+    "pricing": {
+      "defaultSale":     { "uom": "pack",   "price": 3500  },
+      "defaultPurchase": { "uom": "carton", "price": 90000 },
+      "saleByWarehouse": []
+    }
+  }
+]

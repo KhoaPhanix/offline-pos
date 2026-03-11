@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "batch:product:mi-haohao:LO001:2026-08-01",
+    "type": "batch",
+    "productId": "product:mi-haohao",
+    "lotCode": "LO001",
+    "mfgDate": "2026-02-01",
+    "expDate": "2026-08-01"
+  },
+  {
+    "_id": "batch:product:mi-haohao:LO002:2026-07-01",
+    "type": "batch",
+    "productId": "product:mi-haohao",
+    "lotCode": "LO002",
+    "mfgDate": "2026-02-15",
+    "expDate": "2026-07-01"
+  }
+]
